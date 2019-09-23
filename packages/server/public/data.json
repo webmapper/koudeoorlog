@@ -1,0 +1,880 @@
+{
+  "type": "FeatureCollection",
+  "name": "punten",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93517,
+        "KLASSE2": "ontspanningscentrum",
+        "SITUATIE": null,
+        "BESCHRIJVING": "K.C.Bilderdijklaan. Het gebouw is in 1949 gebouwd als kantoorpand voor Polynorm; architect: J.H. Oosterhuis. Daarna is het vele jaren eigendom geweest van Defensie, laatstelijk voor nazorg van militairen met een stress-syndroom. Daarna stond het enkele jaren leeg. Thans verbouwd tot woningen. In 2010 kreeg het de status van gemeentelijk monument."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.372658, 52.147189, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93518,
+        "KLASSE2": "bunker",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Verbindingsbunker voor de landmacht. Alle verbindingen op nationaal niveau kwamen hier samen"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.177114, 52.118381, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93519,
+        "KLASSE2": "zenderpark",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Zenderpark voor zenden en afluisteren.\r\n"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.281194, 52.257928, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93520,
+        "KLASSE2": "magazijn",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Zeer waarschijnlijke gesloopt, was opslag voor voedsel defensie."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.377378, 52.160817, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93539,
+        "KLASSE2": "magazijn",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Loodsen op fort Abcoude"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.981014, 52.268717, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93540,
+        "KLASSE2": "bunker",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Aangeaard beschermd onderkomen ten behoeve van de bediening van de zenders."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.0434, 52.003289, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93541,
+        "KLASSE2": "noodzetel",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Speciaal gebouwde voorzien gebouwd, volgens standaardmodel in combinatie met Kring Utrecht-a"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.92703, 52.027483, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93542,
+        "KLASSE2": "bunker",
+        "SITUATIE": null,
+        "BESCHRIJVING": null
+      },
+      "geometry": { "type": "Point", "coordinates": [5.409844, 51.975879, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93544,
+        "KLASSE2": "noodzetel",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Twee vertrekken in het fort. Wordt genoemd in 1963. Niet zeker of het door is gegaan."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.064094, 52.146531, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93575,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Kamp Waterloo. In 1939 door Nederlands Leger gebouwd. In de periode januari-maart 1946 in gebruik om Nederlandse soldaten op te leiden voor hun vertrek naar Indië. Daarna in gebruik geweest door ´luchtvaarttroepen´ (1948) voordat het weer over ging naar de Landmacht. Enkele jaren geleden ontmanteld."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.364613, 52.114899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93576,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Dumoulin kazerne. Terrein in 1939 opgericht voor mobilisatie Latere toevoegingen zijn o.a. bakstenen gebouw (Duits) en een houten barak uit 1949. In 1949 en later nog verder vergroot."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.315833, 52.128233, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93577,
+        "KLASSE2": "werkplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "LC Soesterberg/ Kamp Soesterberg. Voormalig NSKK kamp. MOB. Tankwerkplaats, opritten voor tanks naar A28, later omgebouwd tot opstellingsplaats voor kruisraketten.(?)"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.31815, 52.125682, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93578,
+        "KLASSE2": "werkplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Werkplaatsen."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.104482, 52.079122, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93579,
+        "KLASSE2": "noodzetel",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Kelder van woongebouw ingericht als noodzetel."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.121017, 52.065683, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93587,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Bevindt zich onder het gebouw, thans in gebruik bij de schietvereniging"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.836894, 52.115969, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93588,
+        "KLASSE2": "commandopost",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Betonnen beschermd onderkomen met verbindingen naar de kazematten van de lunet. Ten behoeve van de landelijke leiding van de B.B. alsmede de commandant van de Mobiele Collones."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.142475, 52.076067, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93589,
+        "KLASSE2": "commandopost",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Gecombineerde post van PCBB en het provinciaal civiel commando (CdK)"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.926542, 52.028053, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93590,
+        "KLASSE2": "commandopost",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Hergebruikt onderkomen van de Admiral der Niederlande, met kleine aanbouw en twee dienstwoningen."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.089517, 52.080506, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93612,
+        "KLASSE2": "hospitaal",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Calamiteitenhospitaal. Hospitaal voor het functioneren in oorlogstijd. Tevens een beschermd hospitaal voor het geval van calamiteiten. Is de opvolger van MHAM"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.177364, 52.087286, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93617,
+        "KLASSE2": "hoofdkwartier",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Kampweg 2, na WO2 jarenlang hoofdkwartier van de Luchtvaartgeneeskunde"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.285183, 52.120383, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93618,
+        "KLASSE2": "ontspanningscentrum",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Kampweg 3. Sinds 1953 is hier het Centrum voor Mens en Luchtvaart gevestigd. Bevond zich eerst op het adres Kampweg 2 te Soesterberg."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.285131, 52.120383, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93619,
+        "KLASSE2": "hospitaal",
+        "SITUATIE": null,
+        "BESCHRIJVING": "MNH, Militair Neurose hospitaal. Zestal vooroorlogse barakken, die vanaf 1946 als Neurose Hospitaal werden gebruikt."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.297492, 52.092772, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93620,
+        "KLASSE2": "hospitaal",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Centraal Militair Hospitaalcomplex, in gebruik tot 1991, verplaatst naar CMH."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.084064, 52.082678, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93621,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Munitieopslagplaats, met loodsen gelegen aan wegen, die een dubbele lus vormen, geheel intact met twee dienstwoningen. Opslag voor tanks. Bedoeld voor de opslag voor te mobiliseren eenheden."
+      },
+      "geometry": { "type": "Point", "coordinates": [4.998933, 51.995867, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93622,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Magazijnencomplex. Loodsen langs een dubbele lus, met twee dienstwoningen, nog geheel intact."
+      },
+      "geometry": { "type": "Point", "coordinates": [4.998586, 51.996117, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93623,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Klein magazijnencomplex, met één lus. Eén van de twee dienstwoningen is gesloopt voor de bouw van een brandweerkazerne. De gebouwen zelf in gebruik voor diverse functies."
+      },
+      "geometry": { "type": "Point", "coordinates": [4.956817, 51.969906, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93683,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Munitiemagazijnencomplex, niet meer bestaand."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.285731, 52.078603, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93685,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Magazijncomplex, bevat nog een aantal gebouwen uit WOII. Nog vrijwel geheel intact."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.325144, 52.124683, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93699,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Aan de zuidzijde van de brug onder de oprit in beton uitgevoerde schuilplaats voor 250 personen. Wanden 40 cm zwaar uitgevoerd."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.126831, 52.080378, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93879,
+        "KLASSE2": "commandopost",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Duitse bunker met wanden van 3 meter dikte. In de naoorlogse periode in gebruik genomen als OPS. Hiervoor is het inwendige verbouwd en een uitbreiding toegevoegd. Het interieur en de uitbreiding is bij de verbouwing van omstreeks 1995 grotendeels verloren gegaan."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.260661, 52.067189, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93880,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Brigade Utrecht, G-eskadron Koninklijke Marechaussee. Legeringsgebouwen ten behoeve van de beveleiging van paleis SoestdijkBrigade Utrecht."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.27405, 52.19975, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93881,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Wallaardt Sacré Kamp. Het is een voormalig zogenaamde Waltlager uit de Tweede Wereldoorlog. Later Demobilisatiecentrum 'Het Boschkamp'. Uitbreiding met paviljoens omstreeks 1965 van het oorspronkelijke door de Duitsers aangelegde kamp."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.248483, 52.117519, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93882,
+        "KLASSE2": "kazerne",
+        "SITUATIE": null,
+        "BESCHRIJVING": "11 metalen opslagtanks van 14 meter hoogte en een doorsnede van 23,5 meter, voor 66.000 m3 olie, tezamen met kantoorgebouw en andere bijgebouwen.."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.230128, 52.069919, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93883,
+        "KLASSE2": "kantoor",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Dienst Vastgoed Defensie Dienstkring Utrecht. Voormalig NSKK kamp met na-oorlogse toevoegingen."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.313797, 52.126289, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 95910,
+        "KLASSE2": "commandopost",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Jongeriusvilla, onderdeel van het Complex Overste Den Ouden (toegang aan de Overste Den Oudenlaan), ook wel Magazijncomplex Kanaalweg genoemd, Omstreeks 1989 overgebracht naar de Knoopskazerne."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.105, 52.080997, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 95911,
+        "KLASSE2": "commandopost",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Beschermd onderkomen in de kazerne. Zal bij de verbouwing van 2016/2017 waarschijnlijk vrijwel geheel zijn ontmanteld."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.107872, 52.087206, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 95978,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Dubbelfunctie voor de fietsenkelder onder de gymzaal. Verder geen gegevens bekend."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.121017, 52.096692, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 95979,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "dubbelfunctie bij de kerk"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.136536, 52.106419, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 95980,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Onder het oostelijke brughoofd voor 60 personen, verder gegevens."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.108892, 52.076942, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 95981,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Onder het oostelijke brughoofd voor 60 personen, verder gegevens."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.109803, 52.076986, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 95982,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Zit onder het bruggenhoofd. Verder geen details van bekend. Nazien of het 1 bruggenhoofd is of 2. schuilplaats voor 250 personen"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.101583, 52.110936, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 95983,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "In parkeergarage luchtbehandelingsinstallaties  etc. In afgescheiden ruimten installaties. Geen sporen van sluitmogelijkheid van toegangen."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.395406, 52.157022, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 95986,
+        "KLASSE2": "oorlogspost kmc",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Beschermd onderkomen"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.21615, 52.040725, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96048,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Magazijncomplex met twee dienstwoningen. Twee loodsen gesloopt (voor 2016) bij herbestemming. Hoofdstructuur redelijk gaaf bewaard gebleven. Op het terrein een bouwwerk met muren van circa een halve meter dik, voorzien van vensters met stalen luiken van ongeveer 2 cm dikte. Vermoedelijk de oorlogspost van de commandant KMC."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.214622, 52.040361, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96049,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Magazijncomplex, gesloopt ten behoeve van nieuwbouw ziekenhuis."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.369725, 52.1706, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96050,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Gebouwd als complex voor opslag voor te mobiliseren eenheden. Twee dienstwoningen bij ingang. Naderhand in gebruik bij de luchtmacht. Thans (2017) te koop."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.51685, 51.98575, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96051,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Magazijnencomplex met twee dienstwoningen. Magazijnen aan een dubbele lus gelegen. In 1977 en 1992 vergroot met munitiemagazijnen op naastgelegen perceel."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.185647, 52.143756, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96052,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Terrein met loodsen bestemd voor de opslag voor te mobiliseren eenheden. Twee dienstwoningen. Deel van het terrein is indertijd afsplitst ten behoeve van de TCC bunker. Die bunker functioneerde binnen eigen omheining. Alle sporen van het MOB-complex zijn verdwenen."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.175717, 52.118014, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96053,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Magazijncomplex met twee woningen. Bedoeld voor de opslag voor te mobiliseren eenheden. Op drie loodsen na gesloopt voor een grondverzetbedrijf."
+      },
+      "geometry": { "type": "Point", "coordinates": [4.877725, 52.209931, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96054,
+        "KLASSE2": "militair complex",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Wagenloods op het terrein fort De Klop. Bedoeld voor de opslag voor te mobiliseren eenheden."
+      },
+      "geometry": { "type": "Point", "coordinates": [4.877725, 52.209931, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96055,
+        "KLASSE2": "magazijn",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Magazijngebouw"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.312533, 51.971347, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96056,
+        "KLASSE2": "toren",
+        "SITUATIE": null,
+        "BESCHRIJVING": "fundament luchtwachttoren (raatbouw)"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.133817, 52.203133, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96062,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Afsluitbaar deel van de noordertunnel, met afonderlijke machinekamer, opslag etc."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.108317, 52.0914, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96063,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Onder het brughoofd, verder gegevens."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.097956, 52.084942, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96064,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "bestaande kelder heringericht als schuilkelder."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.127392, 52.093433, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96065,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Parkeergarage met voorzieningen voor een schuilplaats"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.114333, 52.092181, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96066,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "schuilplaats"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.108822, 52.099456, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96076,
+        "KLASSE2": "wachtpost",
+        "SITUATIE": null,
+        "BESCHRIJVING": null
+      },
+      "geometry": { "type": "Point", "coordinates": [5.1155, 52.087178, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96446,
+        "KLASSE2": "commandopost",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Hergebruikte Duitse Bunker van het type 608"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.344197, 52.1598, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96447,
+        "KLASSE2": "commandopost",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Vermoedelijk de kelder van een gesloopt gebouw aan de straatzijde van het kazerneterrein. Coördinaten zijn een vermoeden."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.008103, 52.195681, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96448,
+        "KLASSE2": "commandopost",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Kantoorruimte gehuurd in Groene Kruisgebouw."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.042242, 52.020614, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96560,
+        "KLASSE2": "commandopost",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Ondergebracht in bestaand gebouw."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.237661, 52.084117, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96561,
+        "KLASSE2": "commandopost",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Ruimte in schoolgebouw."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.346664, 52.03995, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96562,
+        "KLASSE2": "commandopost",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Post in de uiterlijke vorm van een villa."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.349281, 52.045006, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96563,
+        "KLASSE2": "commandopost",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Een deel van het oude bomvrijge gebouw A op het fort is aangepast ten behoeve van de commandopost."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.004239, 52.196708, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96597,
+        "KLASSE2": "commandopost",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Hergebruik van Duitse bunker van het type V149 dat in gebruik was bij de Duitse marine als hoofdkwartier. Aan één zijde een uitbreiding. Gesloopt voor een verkeersviaduct."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.089517, 52.080506, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96598,
+        "KLASSE2": "commandopost",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Commandopost volgens standaardontwerp, naast de oude post gebouwd."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.349475, 52.0447, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96599,
+        "KLASSE2": "noodzetel",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Kelderruimte ingericht als noodzetel"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.178381, 52.101378, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96600,
+        "KLASSE2": "noodzetel",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Interne verbouwing van het gebouw."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.064094, 52.146531, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97277,
+        "KLASSE2": "noodzetel",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Onder aanbouw aan koorzijde kerk."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.012456, 52.106539, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97287,
+        "KLASSE2": "noodzetel",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Deel kelder ingericht als noodzetel"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.238775, 52.082567, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97288,
+        "KLASSE2": "noodzetel",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Beschermd onderkomen ten behoeve van de NS"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.411731, 52.05455, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97289,
+        "KLASSE2": "noodzetel",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Is de opvolger van het gebouw in Maarsbergen."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.112628, 52.087878, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97290,
+        "KLASSE2": "noodzetel",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Noodonderkomen ten behoeve van de verkeersregeling op knooppunt Amersfoort van de spoorwegen."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.359294, 52.152931, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97291,
+        "KLASSE2": "bunker",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Bechermd onderkomen."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.1322, 51.990736, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97292,
+        "KLASSE2": "noodzetel",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Onderdeel van de brandweerkazerne"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.109689, 52.065122, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97293,
+        "KLASSE2": "magazijn",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "11 metalen opslagtanks van 14 meter hoogte en een doorsnede van 23,5 meter, voor 66.000 m3 olie, tezamen met kantoorgebouw en andere bijgebouwen.."
+      },
+      "geometry": { "type": "Point", "coordinates": [5.104514, 52.056306, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97294,
+        "KLASSE2": "magazijn",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Eén van de twee Rijksmagazijnen voor opslag van goederen ten behoeve van de Mobiele Colonnes"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.312397, 51.971169, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97295,
+        "KLASSE2": "magazijn",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Complex met loodsen"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.100381, 52.0109, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97296,
+        "KLASSE2": "magazijn",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Aantal magazijngebouwen en een kantoorgebouw. De magazijnen zullen nog bij het MIBO-magazijn behoren."
+      },
+      "geometry": { "type": "Point", "coordinates": [4.872925, 52.208633, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97297,
+        "KLASSE2": "magazijn",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Mogelijk nog bestaand, maar voorzien van nieuwe gevelbekleding"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.992383, 52.174636, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97497,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "schuilplaats voor 100 personen"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.382272, 52.157628, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97498,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "schuilplaats"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.384872, 52.149792, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97499,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Onder gymnastieklokaal ingerichte schuilplaats"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.886481, 52.083391, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97500,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "combinatiebouw in kelder postkantoor"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.311319, 52.054003, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97502,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": "verdwenen",
+        "BESCHRIJVING": "Onderbrenging in bestaand gebouw"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.429094, 52.130386, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97503,
+        "KLASSE2": "schuilplaats",
+        "SITUATIE": null,
+        "BESCHRIJVING": "Combinatie met schuilkelder ter plaatse van de kelderverdieping"
+      },
+      "geometry": { "type": "Point", "coordinates": [5.314731, 52.162289, 0.0] }
+    }
+  ]
+}
