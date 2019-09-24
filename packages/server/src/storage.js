@@ -8,12 +8,19 @@ import mime from "mime-types";
 import joi from "joi";
 import client from "./client";
 
+import {
+  STORAGE_KEY,
+  STORAGE_SECRET,
+  STORAGE_ENDPOINT,
+  STORAGE_BUCKET
+} from "./config";
+
 const router = express.Router();
 
 const s3 = new AWS.S3({
-  accessKeyId: process.env.STORAGE_KEY,
-  secretAccessKey: process.env.STORAGE_SECRET,
-  endpoint: process.env.STORAGE_ENDPOINT,
+  accessKeyId: STORAGE_KEY,
+  secretAccessKey: STORAGE_SECRET,
+  endpoint: STORAGE_ENDPOINT,
   s3ForcePathStyle: true,
   signatureVersion: "v4"
 });
@@ -29,7 +36,7 @@ const schema = joi.object().keys({
 const upload = multer({
   storage: multerS3({
     s3,
-    bucket: process.env.STORAGE_BUCKET,
+    bucket: STORAGE_BUCKET,
     metadata: (req, file, cb) => {
       cb(null, {
         originalname: file.originalname
@@ -72,7 +79,7 @@ router.get("/file/*", (req, res, next) => {
   const key = `${req.params[0]}`;
 
   const params = {
-    Bucket: process.env.STORAGE_BUCKET,
+    Bucket: STORAGE_BUCKET,
     Key: key
   };
 
