@@ -37,7 +37,7 @@ services:
       context: ../packages/server
       dockerfile: Dockerfile
     environment:
-      GRAPHQL_HOST: ${GRAPHQL_HOST}
+      GRAPHQL_HOST: http://graphql-engine:8080/v1/graphql
       HASURA_GRAPHQL_ADMIN_SECRET: ${HASURA_GRAPHQL_ADMIN_SECRET}
       STORAGE_ENDPOINT: ${STORAGE_ENDPOINT}
       STORAGE_BUCKET: ${STORAGE_BUCKET}
