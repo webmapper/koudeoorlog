@@ -1,0 +1,51 @@
+version: "3.6"
+services:
+  postgres:
+    image: postgres
+    container_name: koudeoorlog_postgres
+    restart: always
+    volumes:
+      - koudeoorlog_db_data:/var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_DB: ${DB_NAME}
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+  graphql-engine:
+    image: hasura/graphql-engine:v1.0.0-beta.6.cli-migrations
+    container_name: koudeoorlog_hasura
+    ports:
+      - "8080:8080"
+    depends_on:
+      - "postgres"
+    restart: always
+    environment:
+      HASURA_GRAPHQL_DATABASE_URL: postgres://${DB_USER}:${DB_PASSWORD}@postgres:5432/${DB_NAME}
+      HASURA_GRAPHQL_UNAUTHORIZED_ROLE: ${HASURA_GRAPHQL_UNAUTHORIZED_ROLE}
+      HASURA_GRAPHQL_ENABLE_CONSOLE: "true" # set to "false" to disable console
+      HASURA_GRAPHQL_ADMIN_SECRET: ${HASURA_GRAPHQL_ADMIN_SECRET}
+    volumes:
+      - koudeoorlog_hasura_data:/var/lib/postgresql/data/pgdata
+      - ../hasura/migrations:/hasura-migrations
+  server:
+    container_name: koudeoorlog_server
+    depends_on:
+      - "graphql-engine"
+    build:
+      context: ../packages/server
+      dockerfile: Dockerfile
+    environment:
+      GRAPHQL_HOST: ${GRAPHQL_HOST}
+      HASURA_GRAPHQL_ADMIN_SECRET: ${HASURA_GRAPHQL_ADMIN_SECRET}
+      STORAGE_ENDPOINT: ${STORAGE_ENDPOINT}
+      STORAGE_BUCKET: ${STORAGE_BUCKET}
+      STORAGE_KEY: ${STORAGE_KEY}
+      STORAGE_SECRET: ${STORAGE_SECRET}
+      PORT: 3000
+    ports:
+      - "3000:3000"
+volumes:
+  koudeoorlog_db_data:
+  koudeoorlog_hasura_data:

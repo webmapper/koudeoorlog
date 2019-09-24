@@ -1,0 +1,6 @@
+- args:
+    sql: COMMENT ON COLUMN "public"."photo_upload"."url" IS E'null'
+  type: run_sql
+- args:
+    sql: alter table "public"."photo_upload" rename column "file_key" to "url";
+  type: run_sql

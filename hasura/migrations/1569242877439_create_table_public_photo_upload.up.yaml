@@ -1,0 +1,11 @@
+- args:
+    sql: CREATE TABLE "public"."photo_upload"("id" serial NOT NULL, "poi_id" integer
+      NOT NULL, "email" text, "author" text, "title" text NOT NULL, "year" integer
+      NOT NULL, "created_at" timestamptz NOT NULL DEFAULT now(), "url" text NOT NULL,
+      PRIMARY KEY ("id") , FOREIGN KEY ("poi_id") REFERENCES "public"."poi"("id")
+      ON UPDATE restrict ON DELETE restrict);
+  type: run_sql
+- args:
+    name: photo_upload
+    schema: public
+  type: add_existing_table_or_view

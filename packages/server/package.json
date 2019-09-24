@@ -1,0 +1,45 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "DOTENV_CONFIG_PATH=../../.env babel-node -r node_modules/dotenv/config src/index.js",
+    "build": "babel ./src --out-dir dist",
+    "watch": "nodemon",
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/plugin-transform-async-to-generator": "^7.5.0",
+    "@babel/preset-env": "^7.6.0",
+    "backpack-core": "^0.8.4",
+    "nodemon": "^1.19.2",
+    "rimraf": "^3.0.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.6.0",
+    "aws-sdk": "^2.533.0",
+    "babel-polyfill": "^6.26.0",
+    "boom": "^7.3.0",
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "graphql-request": "^1.8.2",
+    "isomorphic-unfetch": "^3.0.0",
+    "joi": "^14.3.1",
+    "mime-types": "^2.1.24",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "uuid": "^3.3.3"
+  }
+}
