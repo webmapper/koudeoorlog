@@ -20,9 +20,10 @@ app.use("/data", data);
 
 app.use((err, req, res, next) => {
   if (err) {
+    console.log(err);
     console.error(err.message);
     console.error(err.stack);
-    return res.status(err.output.statusCode || 500).json(err.output.payload);
+    return res.status(500);
   }
 });
 

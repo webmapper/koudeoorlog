@@ -1,6 +1,6 @@
 //storage
 export const STORAGE_KEY = process.env.STORAGE_KEY || "";
-export const STORAGE_SECRET = process.env.STORAGE_SECRET | "";
+export const STORAGE_SECRET = process.env.STORAGE_SECRET || "";
 export const STORAGE_ENDPOINT = process.env.STORAGE_ENDPOINT || "";
 export const STORAGE_BUCKET = process.env.STORAGE_BUCKET || "";
 

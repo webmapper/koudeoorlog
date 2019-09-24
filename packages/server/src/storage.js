@@ -27,7 +27,10 @@ const s3 = new AWS.S3({
 
 const schema = joi.object().keys({
   poi_id: joi.number().required(),
-  title: joi.string().required(),
+  title: joi
+    .string()
+    .min(5)
+    .required(),
   year: joi.number().required(),
   email: joi.string(),
   author: joi.string()
@@ -45,14 +48,6 @@ const upload = multer({
     contentType: (req, file, cb) => {
       cb(null, file.mimetype);
     },
-    fileFilter: (req, file, cb) => {
-      const { error, values } = schema.validate(req.body);
-      if (error) {
-        cb(null, false);
-      } else {
-        cb(null, true);
-      }
-    },
     key: (req, file, cb) => {
       const uuid = uuidv4();
       const extension = mime.extension(file.mimetype);
@@ -67,13 +62,17 @@ const upload = multer({
       });
       cb(null, key);
     }
-  })
+  }),
+  fileFilter: (req, file, cb) => {
+    const { error, values } = schema.validate(req.body);
+    if (error) {
+      req.error = error;
+      cb(null, false);
+    } else {
+      cb(null, true);
+    }
+  }
 });
-
-const upload_auth = (req, res, next) => {
-  req.saved_files = [];
-  next();
-};
 
 router.get("/file/*", (req, res, next) => {
   const key = `${req.params[0]}`;
@@ -120,11 +119,23 @@ router.get("/file/*", (req, res, next) => {
   });
 });
 
+const upload_auth = (req, res, next) => {
+  req.saved_files = [];
+  req.error = null;
+  next();
+};
+
 router.post(
   "/upload",
   upload_auth,
   upload.single("file"),
   async (req, res, next) => {
+    if (req.error) {
+      console.log("HAS ERROR", req.error);
+      return res.json({
+        error: req.error
+      });
+    }
     //req.saved_files;
     let file_key = req.saved_files[0].key;
 
