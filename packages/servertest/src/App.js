@@ -24,28 +24,30 @@ function App() {
   const [submitting, _submitting] = React.useState(false);
   const [error, _error] = React.useState("");
 
-  React.useEffect(() => {
-    if (submitting) {
-      const load = async () => {
-        const result = await handleUpload(file, title, poiId, year);
-        console.log("Await data", result);
-        if (result.error) {
-          _error(result.message);
-        } else {
-          _resp(result[0]);
-        }
-        _submitting(false);
-      };
-
-      load();
+  const load = async () => {
+    const result = await handleUpload(file, title, poiId, year);
+    console.log("Await data", result);
+    if (result.error) {
+      _error(result.error.details.map(d => d.message).join(", "));
+    } else {
+      _resp(result[0]);
     }
-  }, [submitting]);
+    _submitting(false);
+  };
 
   return (
     <div className="App">
       <h1>Upload test</h1>
 
-      <form method="post">
+      <form
+        method="post"
+        onSubmit={e => {
+          e.preventDefault();
+          load().then(() => {
+            console.log("done");
+          });
+        }}
+      >
         <section>
           <label>Title</label>
           <input
@@ -81,13 +83,7 @@ function App() {
           />
         </section>
         {error !== "" && <p>{error}</p>}
-        <button
-          disabled={submitting}
-          onClick={() => {
-            _error("");
-            _submitting(true);
-          }}
-        >
+        <button type="submit" disabled={submitting}>
           Upload
         </button>
       </form>
@@ -98,7 +94,10 @@ function App() {
             {resp.title}
           </h3>
           <h6>{resp.year}</h6>
-          <img src={`http://localhost:3000/storage/file/${resp.file_key}`} />
+          <img
+            src={`http://localhost:3000/storage/file/${resp.file_key}`}
+            alt="temp"
+          />
         </div>
       )}
     </div>
