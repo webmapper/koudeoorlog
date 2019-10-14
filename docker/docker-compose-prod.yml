@@ -7,7 +7,7 @@ services:
     volumes:
       - koudeoorlog_db_data:/var/lib/postgresql/data/pgdata
     ports:
-      - "5432:5432"
+      - "9903:5432"
     environment:
       POSTGRES_PASSWORD: ${DB_PASSWORD}
       POSTGRES_USER: ${DB_USER}
@@ -17,12 +17,12 @@ services:
     image: hasura/graphql-engine:v1.0.0-beta.6.cli-migrations
     container_name: koudeoorlog_hasura
     ports:
-      - "8080:8080"
+      - "9904:8080"
     depends_on:
       - "postgres"
     restart: always
     environment:
-      HASURA_GRAPHQL_DATABASE_URL: postgres://${DB_USER}:${DB_PASSWORD}@postgres:5432/${DB_NAME}
+      HASURA_GRAPHQL_DATABASE_URL: postgres://${DB_USER}:${DB_PASSWORD}@postgres:9903/${DB_NAME}
       HASURA_GRAPHQL_UNAUTHORIZED_ROLE: ${HASURA_GRAPHQL_UNAUTHORIZED_ROLE}
       HASURA_GRAPHQL_ENABLE_CONSOLE: "true" # set to "false" to disable console
       HASURA_GRAPHQL_ADMIN_SECRET: ${HASURA_GRAPHQL_ADMIN_SECRET}
@@ -45,7 +45,7 @@ services:
       STORAGE_SECRET: ${STORAGE_SECRET}
       PORT: 3000
     ports:
-      - "3000:3000"
+      - "9905:3000"
 volumes:
   koudeoorlog_db_data:
   koudeoorlog_hasura_data:
