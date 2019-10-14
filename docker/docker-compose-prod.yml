@@ -20,7 +20,7 @@ services:
       - "postgres"
     restart: always
     environment:
-      HASURA_GRAPHQL_DATABASE_URL: postgres://${DB_USER}:${DB_PASSWORD}@postgres:9903/${DB_NAME}
+      HASURA_GRAPHQL_DATABASE_URL: postgres://${DB_USER}:${DB_PASSWORD}@postgres:5432/${DB_NAME}
       HASURA_GRAPHQL_UNAUTHORIZED_ROLE: ${HASURA_GRAPHQL_UNAUTHORIZED_ROLE}
       HASURA_GRAPHQL_ENABLE_CONSOLE: "true" # set to "false" to disable console
       HASURA_GRAPHQL_ADMIN_SECRET: ${HASURA_GRAPHQL_ADMIN_SECRET}
