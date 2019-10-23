@@ -34,6 +34,7 @@ services:
     build:
       context: ../packages/server
       dockerfile: Dockerfile
+    restart: always
     environment:
       GRAPHQL_HOST: http://graphql-engine:8080/v1/graphql
       HASURA_GRAPHQL_ADMIN_SECRET: ${HASURA_GRAPHQL_ADMIN_SECRET}
