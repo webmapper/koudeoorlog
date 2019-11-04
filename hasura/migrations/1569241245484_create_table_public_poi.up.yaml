@@ -1,6 +1,6 @@
 - args:
     sql: CREATE TABLE "public"."poi"("id" integer NOT NULL, "class" text, "situation"
-      text, "description" text, "lng" numeric NOT NULL, "lat" numeric NOT NULL, PRIMARY
+      text, "description" text, "name" text, "lng" numeric NOT NULL, "lat" numeric NOT NULL, PRIMARY
       KEY ("id") );
   type: run_sql
 - args:

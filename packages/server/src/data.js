@@ -4,7 +4,7 @@ import client from "./client";
 
 const POI_MUTATION = `
   mutation InsertPoi($objects: [poi_insert_input!]!) {
-    insert_poi(objects:$objects, on_conflict: {constraint: poi_pkey, update_columns: [class, description, lat, lng, situation]}) {
+    insert_poi(objects:$objects, on_conflict: {constraint: poi_pkey, update_columns: [class, description, name, lat, lng, situation]}) {
       affected_rows
     }
   }
@@ -22,6 +22,7 @@ router.get("/load", async (req, res) => {
         id: f.properties.OBJECTID,
         class: f.properties.KLASSE2,
         situation: f.properties.SITUATIE,
+        name: f.properties.NAME,
         description: f.properties.BESCHRIJVING,
         lng: f.geometry.coordinates[0],
         lat: f.geometry.coordinates[1]
