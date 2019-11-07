@@ -18,11 +18,12 @@ router.get("/load", async (req, res) => {
   const objects = await fetch(url)
     .then(resp => resp.json())
     .then(json => {
+
       return json.features.map(f => ({
-        id: f.properties.OBJECTID,
+        id: f.properties.fid,
         class: f.properties.KLASSE2,
         situation: f.properties.SITUATIE,
-        name: f.properties.NAME,
+        name: f.properties.NAAM,
         description: f.properties.BESCHRIJVING,
         lng: f.geometry.coordinates[0],
         lat: f.geometry.coordinates[1]

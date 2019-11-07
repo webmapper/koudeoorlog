@@ -8,4 +8,4 @@ export const STORAGE_BUCKET = process.env.STORAGE_BUCKET || "";
 export const HASURA_GRAPHQL_ADMIN_SECRET =
   process.env.HASURA_GRAPHQL_ADMIN_SECRET || "";
 export const GRAPHQL_HOST =
-  process.env.GRAPHQL_HOST || "http://localhost:8080/v1/graphql";
+  process.env.GRAPHQL_HOST || "http://localhost:9904/v1/graphql";
