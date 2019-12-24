@@ -24,7 +24,7 @@ router.get("/load", async (req, res) => {
         class: f.properties.KLASSE2,
         situation: f.properties.SITUATIE,
         name: f.properties.NAAM,
-        description: f.properties.BESCHRIJVING,
+        description: f.properties.BESCHRIJVI,
         lng: f.geometry.coordinates[0],
         lat: f.geometry.coordinates[1]
       }));
