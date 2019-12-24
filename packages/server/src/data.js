@@ -20,7 +20,7 @@ router.get("/load", async (req, res) => {
     .then(json => {
 
       return json.features.map(f => ({
-        id: f.properties.fid,
+        id: f.properties.id,
         class: f.properties.KLASSE2,
         situation: f.properties.SITUATIE,
         name: f.properties.NAAM,
