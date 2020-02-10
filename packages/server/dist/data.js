@@ -39,7 +39,7 @@ function () {
             }).then(function (json) {
               return json.features.map(function (f) {
                 return {
-                  id: f.properties.OBJECTID,
+                  id: f.properties.id,
                   "class": f.properties.KLASSE2,
                   situation: f.properties.SITUATIE,
                   description: f.properties.BESCHRIJVING,
